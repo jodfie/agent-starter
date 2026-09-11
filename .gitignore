@@ -1,0 +1,43 @@
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+**/secrets*
+
+# Logs / temporary
+*.log
+.tmp/
+tmp/
+.cache/
+coverage/
+
+# Common dependencies/builds
+node_modules/
+dist/
+build/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# OpenClaw private/runtime state
+.openclaw/
+memory/
+MEMORY.md
+USER.md
+*.sqlite
+*.sqlite3
+
+# Keep public examples
+!openclaw/USER.md.example
+!openclaw/MEMORY.md.example
