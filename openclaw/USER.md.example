@@ -1,0 +1,19 @@
+# User
+
+Keep the real version of this file in the private OpenClaw workspace.
+
+## Preferences
+
+- Preferred name: [name]
+- Communication: [concise/detailed/etc.]
+- Time zone: [timezone]
+
+## Stable Working Preferences
+
+- [preference]
+
+## Boundaries
+
+- [boundary]
+
+Do not put secrets, unnecessary sensitive personal data, or short-lived project state here. Project-specific state belongs in the project repository.
